@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>NewChef</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="static/images/chefFavicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="/">NewChef</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/plan">Plan</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/build">Build</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/grow">Grow</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Contact Section-->
+        <section class="page-section-small" id="header">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-5">Build</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-utensils"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <p class="lead mb-0 text-center">
+                    This section is designed to help you transform your dream into a reality by connecting you to the right vendors. 
+                    <br>
+                    Here you will be able to complete all the initial work/purchases required in setting up your restaraunt.
+                </p>
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Grid Items-->
+                <div class="row mb-5">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto">
+                            <img class="img-fluid" src="static/images/rocket.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto auto-center-v">
+                            <h4 class="text-uppercase mb-3 mt-2">Registration</h4>
+                            <p class="lead mb-2">
+                                The first step on the road to establisishing your restaraunt is filing the appropriate paperwork. 
+                                ZenBusiness gives you all the legal tools you need to make your business real.
+                            </p>
+                            <a class="btn btn-primary btn-m" href="https://www.zenbusiness.com">Let's go!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto">
+                            <img class="img-fluid" src="static/images/local-city.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto auto-center-v">
+                            <h4 class="text-uppercase mb-3 mt-2">Location</h4>
+                            <p class="lead mb-2">
+                                You will need to find and settle down in a building to set up your store. 
+                                Loopnet lets you do just that by bidding, renting, or buying commercial property.
+                            </p>
+                            <a class="btn btn-primary btn-m" href="https://www.loopnet.com/search/restaurants/usa/for-sale/">Let's go!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto">
+                            <img class="img-fluid" src="static/images/ingrediants.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto">
+                            <h4 class="text-uppercase mb-3 mt-2">Ingredients</h4>
+                            <p class="lead mb-2">
+                                The next item on the list is a vendor to provide a routine shipment of ingredients. 
+                                Webstaurant allows you to buy and schedule exactly what you need in bulk.
+                            </p>
+                            <a class="btn btn-primary btn-m" href="https://www.webstaurantstore.com/restaurant-consumables.html">Let's go!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto">
+                            <img class="img-fluid" src="static/images/teamwork.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-lg-6 mb-2">
+                        <div class="portfolio-item mx-auto">
+                            <h4 class="text-uppercase mb-3 mt-2">Staff</h4>
+                            <p class="lead mb-2">
+                                The most important part of your business is the team you put together to cook, serve, and clean. 
+                                Hire the right people with Poached!
+                            </p>
+                            <a class="btn btn-primary btn-m" href="https://poachedjobs.com/register-poster">Let's go!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Contact Info</h4>
+                        <p class="lead mb-0">
+                            siddhesvark@gmail.com
+                            <br/>
+                            siddhesvar@zenbusiness.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    	<h4 class="text-uppercase mb-4">Charity</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.mealsonwheelsamerica.org/"><i class="fas fa-fw fa-trailer"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.feedingamerica.org/"><i class="fas fa-fw fa-seedling"></i></a>
+                        <!-- Link patreon and cashapp -->
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/siddhesvar-kannan-databoi/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://angel.co/u/siddhesvar-kannan"><i class="fab fa-fw fa-angellist"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/SidTheKid007"><i class="fab fa-fw fa-github-alt"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://apps.apple.com/us/developer/siddhesvar-kannan/id1332952423"><i class="fab fa-fw fa-apple"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Sid K 2020</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    </body>
+</html>

@@ -29,8 +29,8 @@ def addContact():
         client = MongoClient('mongodb+srv://siddhesvark:' + os.environ.get('MONGODB') + '@cluster0.mslk0.mongodb.net/emailList?retryWrites=true&w=majority')
         db = client.emailList
         emails = db.emails
-        email = { "name": name, "email": email }
-        emails.insert_one(email)
+        user = { "name": name, "email": email }
+        emails.insert_one(user)
         emailList = "Thank you " + name + "!"
         return render_template('index.html', emailList = emailList)
     except Exception:

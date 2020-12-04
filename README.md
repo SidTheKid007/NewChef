@@ -13,8 +13,10 @@
  [Artify Frontend](/templates/) - This directory lays out the files used to display the pages that the user interacts with.
 
 ## Website
-http://www.brandnewchef.org - This website contains the final result of the project.
-http://www.thebrandnewchef.com - This website also contains the final result of the project.
+https://newchef.herokuapp.com/ - This website also contains the final result of the project.
+
+http://www.brandnewchef.org, http://www.thebrandnewchef.com - These websites contain the final result of the project on a purchased domain. (Deprecated)
+
 
 ## Libaries Used
 ### Framework
